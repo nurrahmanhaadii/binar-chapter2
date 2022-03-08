@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Chapter2">
         <activity
+            android:name=".day7.Day7Activity"
+            android:exported="false" />
+        <activity
             android:name=".day6.Day6Activity"
             android:exported="false" />
         <activity

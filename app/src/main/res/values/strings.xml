@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Chapter 2</string>
+    <string name="hello_world">Hello World!</string>
+    <string name="txt_button">Tombol</string>
+    <string name="txt_tombol">Tombol</string>
+    <string name="i_zaz">I\'zaz</string>
+</resources>

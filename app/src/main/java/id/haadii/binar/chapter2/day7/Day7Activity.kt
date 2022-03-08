@@ -9,4 +9,5 @@ class Day7Activity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_day7)
     }
+
 }

@@ -1,9 +1,10 @@
-package id.haadii.binar.chapter2
+package id.haadii.binar.chapter2.day8
 
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
+import id.haadii.binar.chapter2.R
 import id.haadii.binar.chapter2.day6.Day6Activity
 import id.haadii.binar.chapter2.day7.Day7Activity
 
@@ -11,6 +12,7 @@ class Day8Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_day8)
+        supportActionBar?.setDisplayHomeAsUpEnabled(true)
         openActivityOne()
         openActivityTwo()
     }

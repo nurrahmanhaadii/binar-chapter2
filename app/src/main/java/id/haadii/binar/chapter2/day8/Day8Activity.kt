@@ -6,7 +6,7 @@ import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import id.haadii.binar.chapter2.R
 import id.haadii.binar.chapter2.day6.Day6Activity
-import id.haadii.binar.chapter2.day7.Day7Activity
+import id.haadii.binar.chapter2.day9.Day9Activity
 
 class Day8Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,7 +20,7 @@ class Day8Activity : AppCompatActivity() {
     private fun openActivityOne() {
         val buttonOne = findViewById<Button>(R.id.btn_page_one)
         buttonOne.setOnClickListener {
-            val intent = Intent(this, Day7Activity::class.java)
+            val intent = Intent(this, Day9Activity::class.java)
             startActivity(intent)
         }
     }

@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Chapter2">
         <activity
+            android:name=".day9.Day9Activity"
+            android:exported="false" />
+        <activity
             android:name=".day8.Day8Activity"
             android:exported="true">
             <intent-filter>
@@ -29,9 +32,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>
